@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDECE4;
+    border: 10px solid #CBC6B9;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 800px;
+    margin-top: 77px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.textDay {
+    font-size: 18px;
+    color: black;
+}
+
+.markerGreen {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: green;
+}
+
+.textHours {
+    width: 318px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.textLocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 318px;
+    height: 82px;
+    border-right: 2px solid black;
+}
+
+.textDecoration {
+    color: #988C77;
+    font-size: 18px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textWrapper > img {
+    width: 200px;
+    height: 200px;
+}
+
+.textWrapper > h1 {
+    font-size: 200px;
+}
+
+main > img {
+    width: 600px;
+    height: 700px;
+}
+
+section{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+}
+
+.title-menu{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap:  50px;
+}
+
+.line{
+    width: 285px;
+    height: 2px;
+    background-color: black;
+}
+article > p, li > p {
+    font-size: 18px;
+    font-family: 'PT Mono' , sans-serif;
+    color: black;
+    height: 14px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: #988C77;
+    font-family: 'Aref Ruqaa', sans-serif;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.main-menu> h3{
+    font-size: 24px;
+    font-family: 'Aref Ruqaa', sans-serif;
+    padding-bottom: 26px;
+    padding-left: 50px;
+}
+
+menu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+menu > img{
+    padding-top: 50px;
+}
+
+img{
+    transition: transform 0.9s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
